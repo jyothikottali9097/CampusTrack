@@ -2,6 +2,7 @@ import React, { useMemo, useState } from 'react';
 import { Navigation, ArrowRight, BellRing, Sparkles } from 'lucide-react';
 import { useTransit } from '../simulation/useTransitStore';
 import { LiveMap } from '../components/LiveMap';
+import heroCampusImg from '../assets/images/hero_campus_transit_1790658005603.jpg';
 
 const CORRIDOR_WAYPOINT_IDS = [
   'stop-rly',
@@ -190,7 +191,7 @@ export const StudentPortal: React.FC = () => {
           <div className="lg:col-span-5 relative min-h-[240px] lg:min-h-[300px] bg-slate-900">
             {!imgError ? (
               <img
-                src="/src/assets/images/hero_campus_transit_1790658005603.jpg"
+                src={heroCampusImg}
                 alt="CampusTrack University Electric Shuttle arriving at Academic Transit Hub"
                 referrerPolicy="no-referrer"
                 onError={() => setImgError(true)}
