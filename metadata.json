@@ -1,0 +1,6 @@
+{
+  "name": "CampusTrack — University Live Transit Network",
+  "description": "Real-time college transportation management, live GPS bus tracking, driver telemetry, and AI transit command center.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
